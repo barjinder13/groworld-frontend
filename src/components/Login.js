@@ -65,7 +65,7 @@ var Login = () => {
 						}
 					}
 						else if (result.statuscode === -2) {
-							toast.error("Your Account is not activated. Please check your email and ativate your account to login")
+							toast.error("Your Account is not activated. Please check your email and activate your account to login")
 						}
 						else if (result.statuscode === -1) {
 							toast.error("Some error Occured, try again")
