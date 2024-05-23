@@ -42,7 +42,7 @@ useEffect(()=>
         <>
             <div className="top-brands">
                 <div className="container">
-                    <h2>Categories</h2><br/>
+                    <h2>Product Categories</h2><br/>
                     {
                         allcat.length>0?
                         allcat.map((data,index)=>
